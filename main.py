@@ -1,8 +1,8 @@
 import telebot
-import constants
+#import constants
 
-bot = telebot.TeleBot(constants.token)
-
+token = "803170993:AAGKEDEBVLWUjRayvIFe7yJZl62FXKoks58"
+bot = telebot.TeleBot(token)
 #bot.send_message(421040739, "Privet")
 
 #upd = bot.get_updates()
