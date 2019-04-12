@@ -57,4 +57,4 @@ def handle_audio(message):
     print(message)
     bot.send_message(message.chat.id, "Звучит не плохо {0}, но лучше отправлю преподователю)".format(message.chat.first_name))
 
-bot.polling(none_stop=True)
+bot.polling()
